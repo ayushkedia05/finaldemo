@@ -36,13 +36,13 @@ const Layout=()=> {
           <NavbarSimple></NavbarSimple>
         </Navbar>
       }
-//       aside={
-//         <MediaQuery smallerThan="sm" styles={{ display: 'none' }}>
-//           <Aside p="md" hiddenBreakpoint="sm" width={{ sm: 200, lg: 300 }}>
-//            <Notification></Notification>
-//           </Aside>
-//         </MediaQuery>
-//       }
+      aside={
+        <MediaQuery smallerThan="sm" styles={{ display: 'none' }}>
+          <Aside p="md" hiddenBreakpoint="sm" width={{ sm: 200, lg: 300 }}>
+           <Notification></Notification>
+          </Aside>
+        </MediaQuery>
+      }
     
       header={
         <Header height={80} p="md">
